@@ -13,7 +13,10 @@ These defected sensors have to be removed as they can further lead to medical er
 
 | S.No. | Image Classes | Images | Description |
 |-------|---------------|---------|-------------|
-|1.| Voids | ![image](/images/voids.jpg) | Sometimes due to misalignment in the sensor position the layers printed over one another can be prone to voids. These voids depending on their size may lead to some serious medical errors and hence should be rejected as defects.|
+|1.| Void | ![image](/images/voids.jpg) | Sometimes due to misalignment in the sensor position the layers printed over one another can be prone to voids. These voids depending on their size may lead to some serious medical errors and hence should be rejected as defects |
+|2. | Anomaly | ![image](/images/anomaly.jpg) | During the manufacturing process, the sensors can be prone to bubbles, debris from enviornment or even fabric from the workers. These sensors have to be rejected |
+|3. | Normal | ![image](/images/normal.jpg) | These sensors donot have any defects in them and hence pass our quality check |
+
 
 
 
