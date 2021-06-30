@@ -18,30 +18,11 @@ These defected sensors have to be removed as they can further lead to medical er
 |3. | Normal | ![image](/images/normal.jpg) | These sensors donot have any defects in them and hence pass our quality check |
 
 
-
-
-
-
-
-Voids
-The sensors consist of two layers printed one over another. Sometimes due to misalignment in the sensor position the layers printed over one another can be prone to voids. These voids depending on their size may lead to some serious medical errors and hence should be rejected as defects.
-
-[image]
-
-Anomalies
-During the manufacturing process, the sensors can be prone to bubbles, debris from enviornment or even fabric from the workers. These sensors have to be rejected. 
-
-[images]
-
-Normal
-These sensors donot have any defects in them and hence pass our quality check.
-
-
 **Project Methadology:**
 
 The first step of our project involves pre-processing the images to remove the background noise. Then we have to undergo a dynamic cropping process to extract our region of interest. This is acheived by creating a shallow CNN for classifying the images on the basis of their position. Then the images are pre-processed to highlight the essential features by improving its contrast. The images are then passed through a deep CNN network to clssify the images into their category. 
 
-[image]
+![image](/images/PIPE_LINE.PNG)
 
 
 **The Image classification package**
