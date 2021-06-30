@@ -29,7 +29,7 @@ The first step of our project involves pre-processing the images to remove the b
 
 The package performs a binary classification where it uses a pretrained model to predict/detect normal images from anomalies/voids. The package has the following folder structure. 
 
-[image]
+![image](/images/CodeStructure.png)
 
 The package has separate modules for image pre-processing, dynamic cropping and the classification module. The pretrained models are saved inside ModelArchive which is used when executing the model. 
 
