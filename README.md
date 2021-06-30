@@ -1,8 +1,9 @@
 # **SIEMENS HEALTHINEERS** 
 ## CAPSTONE PROJECT - University of British Columbia 
+---------------------------------------------------------------
 
-### COMPUTER VISION ALGORITHM FOR QUALITY CONTROL OF SENSOR MANUFACTURING PROCESS
-------------------------------------------------------
+#### COMPUTER VISION ALGORITHM FOR QUALITY CONTROL OF SENSOR MANUFACTURING PROCESS
+
 
 This package was developed to implement quality control of Siemens Medical Sensor during their sensor manufacturing process.
 The medical sensors in our project are sometimes prone to defects while manufacturing which can be viewed by the presence of bubbles or voids in their images. 
