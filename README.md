@@ -26,7 +26,7 @@ The first step of our project involves pre-processing the images to remove the b
 ![image](/images/PIPE_LINE.PNG)
 
 
-### **The Image classification package**
+### **The Image classification package:**
 
 The package performs a binary classification where it uses a pretrained model to predict/detect normal images from anomalies/voids. The package has the following folder structure. 
 
