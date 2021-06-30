@@ -31,6 +31,8 @@ The package performs a binary classification where it uses a pretrained model to
 
 ![image](/images/CodeStructure.png)
 
+<img src="/images/CodeStructure.png" alt="drawing" width="200"/>
+
 The package has separate modules for image pre-processing, dynamic cropping and the classification module. The pretrained models are saved inside ModelArchive which is used when executing the model. 
 
 The run_classification_pipeline.py file constitutes the entire pipeline of the process.  The file requires three different location inputs – input to the RAW images, the input to the saved model for dynamic cropping and the input to the saved model for classifcation model. 
