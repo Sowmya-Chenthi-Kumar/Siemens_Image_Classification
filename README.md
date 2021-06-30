@@ -1,9 +1,9 @@
 # SIEMENS HEALTHINEERS 
-|-------------------------------------------|
+-------------------------------------------
 ## CAPSTONE PROJECT - University of British Columbia 
 
-## COMPUTER VISION ALGORITHM FOR QUALITY CONTROL OF SENSOR MANUFACTURING PROCESS
-|------------------------------------------------------|
+### COMPUTER VISION ALGORITHM FOR QUALITY CONTROL OF SENSOR MANUFACTURING PROCESS
+------------------------------------------------------
 
 This package was developed to implement quality control of Siemens Medical Sensor during their sensor manufacturing process.
 The medical sensors in our project are sometimes prone to defects while manufacturing which can be viewed by the presence of bubbles or voids in their images. 
@@ -11,7 +11,7 @@ These defected sensors have to be removed as they can further lead to medical er
 
 **Sensor Images and Classes:**
 
-[image]
+![image](C:/Users/mural/MDS/PROJECT_REPOS/Siemens_Image_Classification/images/voids.jpg)
 
 Voids
 The sensors consist of two layers printed one over another. Sometimes due to misalignment in the sensor position the layers printed over one another can be prone to voids. These voids depending on their size may lead to some serious medical errors and hence should be rejected as defects.
