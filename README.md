@@ -1,5 +1,5 @@
 # **SIEMENS HEALTHINEERS** 
-##### CAPSTONE PROJECT - University of British Columbia 
+**CAPSTONE PROJECT - University of British Columbia**
 ---------------------------------------------------------------
 
 # COMPUTER VISION ALGORITHM FOR QUALITY CONTROL OF SENSOR MANUFACTURING PROCESS
@@ -9,7 +9,7 @@ This package was developed to implement quality control of Siemens Medical Senso
 The medical sensors in our project are sometimes prone to defects while manufacturing which can be viewed by the presence of bubbles or voids in their images. 
 These defected sensors have to be removed as they can further lead to medical error/ critical medical error when used for decsion making processes by doctors or other health care workers. To solve this issue we have developed a package which uses computer vision classification algorithm like CNNs to detect and classify defected sensors from the normal ones. 
 
-####**Sensor Images and Classes:**
+#### **Sensor Images and Classes:**
 
 | S.No. | Image Classes | Images | Description |
 |-------|---------------|---------|-------------|
@@ -18,7 +18,7 @@ These defected sensors have to be removed as they can further lead to medical er
 |3. | Normal | ![image](/images/normal.jpg) | These sensors donot have any defects in them and hence pass our quality check |
 
 
-####**Project Methadology:**
+#### **Project Methadology:**
 
 The first step of our project involves pre-processing the images to remove the background noise. Then we have to undergo a dynamic cropping process to extract our region of interest. This is acheived by creating a shallow CNN for classifying the images on the basis of their position. Then the images are pre-processed to highlight the essential features by improving its contrast. The images are then passed through a deep CNN network-ResNet to classify the images into their category. 
 
@@ -26,7 +26,7 @@ The first step of our project involves pre-processing the images to remove the b
 ![image](/images/PIPE_LINE.PNG)
 
 
-####**The Image classification package**
+#### **The Image classification package**
 
 The package performs a binary classification where it uses a pretrained model to predict/detect normal images from anomalies/voids. The package has the following folder structure. 
 
