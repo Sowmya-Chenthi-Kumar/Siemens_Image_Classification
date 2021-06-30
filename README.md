@@ -11,7 +11,7 @@ These defected sensors have to be removed as they can further lead to medical er
 
 **Sensor Images and Classes:**
 
-![image](~/images/voids.jpg)
+![image](~images/voids.jpg)
 
 
 Voids
