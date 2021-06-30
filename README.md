@@ -11,7 +11,13 @@ These defected sensors have to be removed as they can further lead to medical er
 
 **Sensor Images and Classes:**
 
-![image](/images/voids.jpg)
+| S.No. | Image Classes | Images | Description |
+|-------|---------------|---------|-------------|
+|1.| Voids | ![image](/images/voids.jpg) | Sometimes due to misalignment in the sensor position the layers printed over one another can be prone to voids. These voids depending on their size may lead to some serious medical errors and hence should be rejected as defects.|
+
+
+
+
 
 
 Voids
