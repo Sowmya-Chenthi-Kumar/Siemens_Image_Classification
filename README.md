@@ -20,7 +20,8 @@ These defected sensors have to be removed as they can further lead to medical er
 
 **Project Methadology:**
 
-The first step of our project involves pre-processing the images to remove the background noise. Then we have to undergo a dynamic cropping process to extract our region of interest. This is acheived by creating a shallow CNN for classifying the images on the basis of their position. Then the images are pre-processed to highlight the essential features by improving its contrast. The images are then passed through a deep CNN network to clssify the images into their category. 
+The first step of our project involves pre-processing the images to remove the background noise. Then we have to undergo a dynamic cropping process to extract our region of interest. This is acheived by creating a shallow CNN for classifying the images on the basis of their position. Then the images are pre-processed to highlight the essential features by improving its contrast. The images are then passed through a deep CNN network-ResNet to classify the images into their category. 
+
 
 ![image](/images/PIPE_LINE.PNG)
 
@@ -31,7 +32,7 @@ The package performs a binary classification where it uses a pretrained model to
 
 <img src="/images/CodeStructure.png" alt="drawing" width="300"/>
 
-The package has separate modules for image pre-processing, dynamic cropping and the classification module. The pretrained models are saved inside ModelArchive which is used when executing the model. 
+The package has separate modules for image pre-processing, dynamic cropping and the classification module. The models are trained with optimum number of images using a computer with GPU and then store in the folder ModelArchive. The pretrained models are then used for making the required predictions for the new images. 
 
 The run_classification_pipeline.py file constitutes the entire pipeline of the process.  The file requires three different location inputs – input to the RAW images, the input to the saved model for dynamic cropping and the input to the saved model for classifcation model. 
 
@@ -43,7 +44,7 @@ The file executes the following processes:
 
 * Change the contrast of the images depending on which line the raw images belong to and send the pre-processed image to the model 
 
-* Use the saved model to predict if a sensor in the image is normal/anomaly 
+* Use the saved ResNet model to predict if a sensor in the image is normal/anomaly 
 
 * Save the predictions in a csv file for future reference  
 
